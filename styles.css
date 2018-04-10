@@ -27732,9 +27732,9 @@ body .lcm-result-titles_warning:before {
 /* line 128, /Users/ilya/projects/gosay/src/monolith/app/assets/stylesheets/application/lcm-main-landing/lcm-main-landing.scss */
 .lcm-landing__header .landing-header__nav-link {
   color: white;
-  margin-right: 45px;
+  margin-right: 100px;
   text-decoration: none;
-  text-transform: capitalize;
+  /*text-transform: capitalize; */
   font-size: 16px;
   font-weight: 600;
 }

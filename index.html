@@ -35,9 +35,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" media="all" href="styles.css">
   </head>
-  <body class="is-main" data-locale="en" id="webinars">
-    
-    
+  <body class="is-main" data-locale="en" id="webinars"> 
     <header class="lcm-landing__header">
       <div class="landing-header__main-logo">
         <a class="header__logo " href="http://localhost:3000/"><svg viewBox="0 0 122 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -55,7 +53,7 @@
         </a>
       </div>
     </header>
-    <div class="lcm-landing__header_sub" style="display: none;">
+    <div class="lcm-landing__header">
       <div class="landing-header__main-logo">
         <a class="header__logo " href="http://localhost:3000/"><svg viewBox="0 0 122 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="icon">
@@ -71,6 +69,10 @@
         </svg>
         </a>
       </div>
+      <nav class="landing-header__nav">
+        <a class="landing-header__nav-link landing-header__original-nav" href="mailto:hello@gosay.co">hello@gosay.co</a>
+      </nav>      
+      
     </div>
     <section class="lcm-landing__section lcm-landing__section_jumbo">
       <div class="lcm-landing__jumbo-background lcm-landing__jumbo-background_left"></div>
@@ -86,49 +88,6 @@
         <h1>Innovative E-learning Solutions</h1>
         <button class="landing-button_down-below"></button>
       </div>
-    </section>
-    <section class="lcm-landing__section lcm-landing__section_form" id="lcm-contacts">
-      <h3 class="lcm-landing__form-title">Get in touch and we will find the right solution for your company</h3>
-      <form class="lcm-landing__form" data-validate="true" action="http://localhost:3000/feedback" accept-charset="UTF-8" data-remote="true" method="post" novalidate="novalidate"><input name="utf8" type="hidden" value="✓">
-        <div class="lcm-landing__alert"></div>
-        <div class="lcm-landing__form-row lcm-landing__form-row_name">
-          <div class="lcm-landing__form-grid lcm-landing__form_label">
-            <label for="name">Introduce yourself</label>
-          </div>
-          <div class="lcm-landing__form-grid lcm-landing__form_input">
-            <input type="text" name="name" id="name">
-          </div>
-        </div>
-        <div class="lcm-landing__form-row lcm-landing__form-row_phone">
-          <div class="lcm-landing__form-grid lcm-landing__form_label">
-            <label for="phone">Telephone</label>
-          </div>
-          <div class="lcm-landing__form-grid lcm-landing__form_input">
-            <div class="intl-tel-input"><div class="flag-container"><div class="selected-flag" title="Russia (Россия): +7"><div class="iti-flag ru"></div></div></div><input type="text" name="phone" id="phone" autocomplete="off"></div>
-          </div>
-        </div>
-        <div class="lcm-landing__form-row lcm-landing__form-row_email">
-          <div class="lcm-landing__form-grid lcm-landing__form_label">
-            <label for="name">Email</label>
-          </div>
-          <div class="lcm-landing__form-grid lcm-landing__form_input">
-            <input type="text" name="email" id="email" required="required" class="validateEmail" aria-required="true">
-          </div>
-        </div>
-        <div class="lcm-landing__form-row lcm-landing__form-row_mess">
-          <div class="lcm-landing__form-grid lcm-landing__form_label">
-            <label for="name">Message</label>
-          </div>
-          <div class="lcm-landing__form-grid lcm-landing__form_input">
-            <textarea name="message" id="message" rows="10" cols="30"></textarea>
-          </div>
-        </div>
-        <hr>
-          <div class="lcm-landing__form-row lcm-landing__form-row_btn">
-            <input type="submit" name="commit" value="Send request">
-          </div>
-        
-      </form>
     </section>
     <footer class="lcm-landing__footer">
       <div class="lcm-landing__footer-row">
